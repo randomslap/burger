@@ -1,8 +1,8 @@
 insert into burgers (burger_name, devoured)
-values ("Cheeseburger", false)
+values ("Cheeseburger", false);
 
 insert into burgers (burger_name, devoured)
-values ("Bacon Cheeseburger", false)
+values ("Bacon Cheeseburger", false);
 
 insert into burgers (burger_name, devoured)
-values ("Burger", false)
+values ("Burger", false);
