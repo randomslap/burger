@@ -35,5 +35,5 @@ $(document).ready(function () {
 			console.log("new burger");
 			location.reload();
 		});
-	});
+    });
 });

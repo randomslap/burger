@@ -1,9 +1,9 @@
-<li>
-    {{burger_name}}
+<li class="burgerBlock">
+    <h2>{{burger_name}}</h2>
 
     <div class="changeDevoured" data-id="{{id}}" data-devoured="{{devoured}}">
         {{#if devoured}}Devoured!{{else}}Not devoured{{/if}}
     </div>
     {{#if devoured}}{{else}}
-    <button class="devour" data-id="{{this.id}}">Devour!</button>{{/if}}
+    <h4><button class="devour ui primary button" data-id="{{this.id}}">Devour!</button></h4>{{/if}}
 </li>
